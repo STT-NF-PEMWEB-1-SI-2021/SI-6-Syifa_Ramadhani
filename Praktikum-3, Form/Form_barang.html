@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Barang Syifa Ramadhani</title>
+    <style>
+        * {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            list-style: none;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(230, 230, 230);">
+    <p style="text-align: center; background-color: grey;">A Web Page</p>
+
+    <nav style="background-color: grey; padding: 20px 0 20px 0; border-bottom: 2px solid black;">
+
+        <ul style="display: flex; gap: 10px;">
+            <li>
+                <a href=""><img src="icon/arrowback.png" alt="arrow-back"></a>
+            </li>
+            <li>
+                <a href=""><img src="icon/arrow.png" alt="arrow"></a>
+            </li>
+            <li>
+                <a href=""><img src="icon/silang.png" alt="silang"></a>
+            </li>
+            <li>
+                <a href=""><img src="icon/home.png" alt="home"></a>
+            </li>
+            <li>
+                <input style="width: 1050px;" type="search" name="search" id="search" value="http://">
+            </li>
+            <li>
+                <button style="width: 50px; height: 25px;"><img src="icon/search.png" alt="search"></button>
+            </li>
+        </ul>
+    </nav>
+
+    <div style="background-color: white; width: 70%; margin: 30px 200px 30px 200px;">
+        <ul style="display: flex; gap: 50px; border: 2px solid black ;">
+            <li>Home</li>
+            <li>|</li>
+            <li>Generate Link</li>
+            <li>|</li>
+            <li>Transaction History</li>
+            <li>|</li>
+            <li>Policy</li>
+            <li>|</li>
+            <li>Logout</li>
+        </ul>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+       <table style="margin: 50px 35px auto 35px;">
+           <tr>
+               <td><img style="width: 350px;" src="icon/laptop.jpg" alt="laptop"></td>
+           </tr>
+           <tr>
+               <td><input type="button" value="Upload Picture"></td>
+           </tr>
+       </table>
+        <table style="margin-top: 50px; margin-bottom: auto;">
+            <tr>
+                <td>Title Here  :</td>
+                <td>
+                    <input type="text" name="title" id="title" value="MacBook Air 800"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Description     :</td>
+                <td>
+                    <textarea name="descripsi" id="descripsi" cols="25" rows="5">
+Year : 2009
+
+Model
+
+Condition : Mint</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Account Number :</td>
+                <td>
+                    <input type="text" name="number" id="number" value="123-456-789-0">
+                </td>
+            </tr>
+            <tr>
+                <td>Bank :</td>
+                <td>
+                    <select name="bank" id="bank">
+                        <option value="HSBC">HSBC</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Account Holder :</td>
+                <td>
+                    <input type="text" name="akun" id="akun" value="Syifa Ramadhani">
+                </td>
+            </tr>
+            <tr>
+                <td>Transaction :</td>
+                <td>
+                    <select name="transaction" id="transaction">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>*if the transaction is for 3 person, choose 3 from the drop-down list </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="color: green;">
+                    <input type="checkbox" name="send1" id="send1" checked>
+                    <label for="send1">Send to Mobile Phone</label><br>
+                    <input type="checkbox" name="send2" id="send2" checked>
+                    <label for="send2">Send to Email</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Send To Mobile Phone :</td>
+                <td>
+                    <input type="text" name="phone" id="phone" value="0110121120, 1126011012">
+                </td>
+            </tr>
+            <tr>
+                <td>Send To Email :</td>
+                <td>
+                    <input type="email" name="email" id="email" value="syifa07@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input style="color: white; background-color: green; margin-top: 30px;" type="button" value="Generate Nabr Link"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
