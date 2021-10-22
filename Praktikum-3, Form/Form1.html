@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1 Syifa Ramadhani</title>
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: black; font-weight: bolder;">Black Goose Bistro | Pizza-on-Demand</h2>
+    <br>
+    <p>Our 12" wood-fired pizzas are available for delivery. Build your</p>
+    <p>custom pizza and we'll deliver it within an hour.</p>
+    <br>
+    <p>Your Information</p>
+    <form action="Form2.html">
+        Nama : 
+        <input type="text" name="Nama" id="Nama" value="Syifa Ramadhani"><br>
+        Addres : 
+        <input type="text" name="Addres" id="Addres" value="123 Street">
+        <br>
+        Telephone Number : 
+        <input type="text" name="Telephone" id="Telephone" value="555-1212">
+        <br>
+        Email : 
+        <input type="email" name="email" id="email" value="syif@example.com">
+        <br>
+        Delivery Instruction :
+        <br>
+        <textarea name="delivery" id="delivery" cols="40" rows="5">Ring the middle buzzer. if nobody answers, text me.</textarea>
+    </form>
+    <br>
+    <p style="font-weight: bolder;">Design Your Dream Pizza :</p>
+    <p>Pizza specs</p>
+    <br>
+    <div>
+        <p>Crust (Chose one) :</p>
+        <ul style="list-style-type: none;">
+            <li><input type="radio" name="Crust" id="classic" checked> Classic White</li>
+            <li><input type="radio" name="Crust" id="multigrain"> Multigrain</li>
+            <li><input type="radio" name="Crust" id="cheese"> Cheese Stuffed-crust</li>
+            <li><input type="radio" name="Crust" id="Gluten-Free"> Gluten-Free</li>
+        </ul>
+    </div>
+    <div>
+        <p>Toppings(Choose as many as you want)</p>
+        <form style="margin-left: 50px;" action="Form2.html">
+            <input type="checkbox" name="Topping1" id="Topping1" checked>
+            <label for="Topping1">Red Sauce</label><br>
+            <input type="checkbox" name="Topping2" id="Topping2">
+            <label for="Topping2">White Sauce</label><br>
+            <input type="checkbox" name="Topping3" id="Topping3" checked>
+            <label for="Topping3">Mozzarella Cheese</label><br>
+            <input type="checkbox" name="Topping4" id="Topping4" checked>
+            <label for="Topping4">Pepperoni</label><br>
+            <input type="checkbox" name="Topping5" id="Topping5" checked>
+            <label for="Topping5">Mushroom</label><br>
+            <input type="checkbox" name="Topping6" id="Topping6">
+            <label for="Topping6">Peppers</label><br>
+            <input type="checkbox" name="Topping7" id="Topping7">
+            <label for="Topping7">Anchovies</label><br>
+        </form>
+    </div>
+    <br>
+    <p>Number</p>
+    <p>How Many Pizza : <input type="number" name="pizza" id="pizza" value="1" min="1" max="6"></p>
+    <br>
+    <form action="Form2.html">
+        <input type="submit" value="Bring me a pizza!"><input type="reset" value="Reset">
+    </form>
+    <br>
+    <br>
+</body>
+</html>
