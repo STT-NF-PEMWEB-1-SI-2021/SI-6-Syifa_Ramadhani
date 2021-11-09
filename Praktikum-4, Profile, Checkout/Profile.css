@@ -1,0 +1,88 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(196, 193, 193);
+}
+
+fieldset {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+article.satu {
+    display: flex;
+    margin-left: 30px;
+}
+
+article.satu section.foto img {
+    width: 450px;
+    margin-top: 30px;
+}
+
+article.satu section.profil h1 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+article.satu section.profil ul {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+article.satu section.profil ul li {
+    margin-top: 20px;
+}
+
+article.satu section.kategori span{
+    display: grid;
+}
+
+
+article.satu section.kategori {
+    margin-left: auto;
+    text-align: end;
+    margin-top: 30px;
+}
+
+article.dua {
+    margin-top: 50px;
+    padding: 0 20px 0 30px;
+}
+
+article.tiga {
+    display: flex;
+    margin: 70px 0 0 30px;
+}
+
+article.tiga section.mv video {
+    width: 350px;
+    
+}
+
+article.tiga section.poto {
+    margin-left: 30px;
+    border: 1px black solid;
+    padding: 10px 10px 10px 10px;
+}
+
+article.tiga section.poto div.poto_atas img {
+    width: 200px;
+}
+article.tiga section.poto div.poto_bawah img {
+    width: 200px;
+}
+
+article.tiga section.source fieldset {
+    margin-left: 30px;
+    width: 230px;
+    border: 1px black solid;
+}
+
+article.tiga section.source fieldset legend {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+article.tiga section.source img {
+    width: 20px;
+}
