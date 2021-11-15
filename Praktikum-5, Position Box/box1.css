@@ -1,0 +1,43 @@
+div {
+    margin: 30px 25px;
+}
+div.div1 {
+    background-color: goldenrod;
+    width: 20%;
+    height: 36em;
+    border: 2px solid black;
+    float: left;
+}
+div.div1 p {
+    color: goldenrod;
+}
+div.div2 {
+    background-color: cadetblue;
+    width: 20%;
+    height: 36em;
+    border: 2px solid black;
+    float: left;
+}
+div.div2 p {
+    color: cadetblue;
+}
+div.div3 {
+    background-color: crimson;
+    width: 20%;
+    height: 36em;
+    border: 2px solid black;
+    float: left;
+}
+div.div3 p {
+    color: crimson;
+}
+div.div4 {
+    background-color: darkolivegreen;
+    width: 20%;
+    height: 36em;
+    border: 2px solid black;
+    float: left;
+}
+div.div4 p {
+    color: darkolivegreen;
+}
