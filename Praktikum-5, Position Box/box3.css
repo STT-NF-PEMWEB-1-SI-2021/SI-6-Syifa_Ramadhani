@@ -1,0 +1,76 @@
+div.atas {
+    margin-top: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div.atas div.kiri {
+    background-color: orange;
+    border: 2px solid black;
+    height: 3em;
+    width: 15%;
+    float: left;
+}
+div.atas div.kiri p {
+    color: orange;
+}
+div.atas div.kanan {
+    background-color: orangered;
+    width: 83%;
+    height: 3em;
+    border: 2px solid black;
+    margin-left: 15px;
+    float: right;
+}
+div.atas div.kanan p {
+    color: orangered;
+}
+div.tengah {
+    margin: 20px;
+}
+div.tengah div.satu {
+    background-color: paleturquoise;
+    border: 2px solid black;
+    width: 15%;
+    height: 25em;
+    float: left;
+    margin-top: 25px;
+}
+div.tengah div.satu p {
+    color: paleturquoise;
+}
+div.tengah div.dua {
+    background-color: gray;
+    border: 2px solid black;
+    width: 65%;
+    height: 25em;
+    margin-left: 20px;
+    float: left;
+    margin-top: 25px;
+}
+div.tengah div.dua p {
+    color: gray;
+}
+div.tengah div.tiga {
+    background-color: lightgreen;
+    border: 2px solid black;
+    width: 15%;
+    height: 25em;
+    margin-left: 20px;
+    float: left;
+    margin-top: 25px;
+}
+div.tengah div.tiga p {
+    color: lightgreen;
+}
+div.bawah {
+    background-color: blue;
+    border: 2px solid black;
+    width: 95%;
+    height: 3em;
+    margin: 20px;
+    position: absolute;
+    bottom: 0;
+}
+div.bawah p {
+    color: blue;
+}
