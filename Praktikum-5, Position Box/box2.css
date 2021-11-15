@@ -1,0 +1,59 @@
+div.atas {
+    border: 2px solid black;
+    background-color: aqua;
+    margin: 100px 25px 25px 25px;
+    height: 5em;
+}
+div.atas p {
+    color: aqua;
+}
+div.tengah {
+    margin: 25px;
+}
+div.tengah div.awal {
+    border: 2px solid black;
+    background-color: darkorange;
+    height: 12em;
+    width: 15%;
+    float: left;
+}
+div.tengah div.awal p {
+    color: darkorange;
+}
+div.tengah div.akhir {
+    border: 2px solid black;
+    background-color: forestgreen;
+    height: 12em;
+    width: 82%;
+    margin-left: 30px;
+    float: right;
+}
+div.tengah div.akhir p {
+    color: forestgreen;
+}
+div.bawah {
+    margin: 25px;
+}
+div.bawah div.kiri {
+    border: 2px solid black;
+    background-color: darkorange;
+    height: 12em;
+    width: 15%;
+    float: left;
+    margin-top: 25px;
+}
+div.bawah div.kiri p {
+    color: darkorange;
+}
+div.bawah div.kanan {
+    border: 2px solid black;
+    background-color: royalblue;
+    height: 12em;
+    width: 82%;
+    margin-left: 30px;
+    margin-top: 25px;
+    float: right;
+}
+div.bawah div.kanan p {
+    color: royalblue;
+}
