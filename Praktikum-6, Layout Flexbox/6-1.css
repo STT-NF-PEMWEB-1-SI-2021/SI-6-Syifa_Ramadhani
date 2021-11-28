@@ -1,0 +1,23 @@
+body {
+    background-color: #FFF8DC;
+    
+}
+img {
+    border-radius: 10px;
+}
+.atas {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.atas img {
+    width: 400px;
+    height: 80px;
+}
+.bawah {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
