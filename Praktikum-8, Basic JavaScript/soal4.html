@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 4 - Syifa Ramadhani</title>
+    <script>
+        function hitung(){
+            let bil1 = Number(document.getElementById("bil1").value);
+            let bil2 = Number(document.getElementById("bil2").value);
+            let hasil = bil1 + bil2;
+            document.getElementById("hasil").value = hasil;
+        }
+    </script>
+</head>
+<body>
+    <h2>Menghitung Penjumlahan</h2>
+    <form action="">
+        Bilangan 1 : <input type="number"  id="bil1" onchange="hitung()"> +
+        Bilangan 2 : <input type="number"  id="bil2" onchange="hitung()">
+        <br>
+        <br>
+        Hasil : <input type="number" id="hasil">
+    </form>
+</body>
+</html>
